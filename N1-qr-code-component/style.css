@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    box-sizing: border-box;
+    
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 25px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+.main-board{
+    
+    width: 320px;
+    height: 497px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 16px;
+
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+    border-radius: 20px;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+/* .ragac-box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+} */
+
+/* .qr-place{
+    
+    width: 288px;
+    height: 288px;
+
+
+    background: #2C7DFA;
+    border-radius: 10px;
+
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.qr-code{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+
+
+}
+
+
+.qr-head-text{
+    height: 56px;
+
+    /* Heading */
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+
+    /* Dark Navy */
+
+    color: #1F314F;
+
+    margin-top: 24px;
+
+}
+
+
+
+.qr-secondary-text{
+
+    height: 57px;
+
+    /* Body */
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1875px;
+
+    margin: 16px 16px 24px 16px;
+
+    /* Grey */
+
+    color: #7D889E;
+}
+
+
+
