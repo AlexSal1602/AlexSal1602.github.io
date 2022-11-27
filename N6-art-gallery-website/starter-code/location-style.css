@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+body{
+    position: relative;
+    overflow-x: hidden;
+
+    font-family: 'Outfit', sans-serif;
+
+    background-color: black;
+    color: white;
+}
+
+a, a::after, a::before{
+    text-decoration: none;
+}
+
+
+.map{
+    width: 100vw;
+    height: 70vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-image: url('assets/mobile/image-map.png');
+    background-image: -webkit-image-set(
+        url('assets/mobile/image-map.png') 1x,
+        url('assets/mobile/image-map@2x.png') 2x
+    );
+    background-image: image-set(
+        "assets/mobile/image-map.png" 1x,
+        "assets/mobile/image-map@2x.png" 2x
+    );
+
+    position: relative;
+}
+
+
+
+
+.location-button{
+    width: 260px;
+    height: 72px;
+
+    background-color: #D5966C;
+
+    position: relative;
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+    top: 0;
+    left: 0;
+
+}
+
+.location-button p{
+    width: 204px;
+    height: 72px;
+    line-height: 72px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+
+    
+}
+
+.location-button img{
+    width: 8px;
+    height: 24px;
+
+    position: absolute;
+    left: 24px;
+    top: 24px;
+}
+
+
+content{
+    width: 100vw;
+    height: 60vh;
+}
+
+content h1{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+
+    margin: 48px 16px;
+
+}
+
+content h2{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    color: #D5966C;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    text-transform: uppercase;
+
+    margin: 16px;
+
+}
+
+
+content p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    margin: 0px 16px 48px 16px;
+}
+
+
+
+footer{
+    width: 100vw;
+    height: 45vh;
+    background-color: #D5966C;
+}
+
+
+footer{
+    color: black;
+    padding: 32px;
+}
+
+footer h2{
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    width: 97px;
+
+
+}
+
+footer p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    margin: 38px 0px;
+}
+
+.social-icons img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
