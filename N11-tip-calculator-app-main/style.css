@@ -8,6 +8,7 @@ body{
 /*     display: flex;*/  
 /*     flex-direction: column; */
         overflow-x: hidden;
+        text-transform: capitalize;
 }
 
 .attribution { 
@@ -242,5 +243,5 @@ calc-container{
     mix-blend-mode: normal;
 
     cursor: pointer;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
