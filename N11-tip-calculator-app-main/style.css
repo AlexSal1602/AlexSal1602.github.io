@@ -19,7 +19,7 @@ body{
     color: hsl(228, 45%, 44%);
 }
 
-button, input{
+button, input, label{
     border: none;
     cursor: pointer;
 }
@@ -101,11 +101,15 @@ calc-container{
 
 
 
+.tip-button{
+    display: none;
+}
 
-.tip-buttons button{
+.button-label{
+    display: inline-block;
     background: #00474B;
     border-radius: 5px;
-    Width:117px;
+    Width: 117px;
     Height:48px;
     margin:2px 0px;
 
@@ -113,10 +117,16 @@ calc-container{
     font-family: 'Space Mono';
     font-weight: 700;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 48px;
     text-align: center;
 
     color: #FFFFFF;
+
+    transition: background 0.1s;
+}
+
+.tip-button:checked + .button-label{
+    background-color: red;
 }
 
 .tip-buttons input{
