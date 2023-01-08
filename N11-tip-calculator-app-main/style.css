@@ -29,6 +29,12 @@ button:focus, input:focus{
      outline: none;
 }
 
+label:hover{
+    background-color: #9FE8DF !important;
+    color: #00474B !important;
+    
+}
+
 
 
 main-container{
@@ -86,7 +92,7 @@ calc-container{
     Height:48px;
     background: #F3F9FA;
     border-radius: 5px;
-    padding-right: 10px;
+    padding-right: 20px;
 
     font-family: 'Space Mono';
     font-style: normal;
@@ -164,6 +170,14 @@ calc-container{
     text-align: right;
 
     color: #00474B;
+}
+
+.people label{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E7A7D;
 }
 
 

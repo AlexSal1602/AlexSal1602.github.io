@@ -24,8 +24,11 @@
           <p>Bill</p>
           <input type="text" id="bill-input" placeholder="0">
         </div>
+
+        <form>
         <div class="tip">
           <p>Select Tip %</p>
+          
           <div class="tip-buttons">
             <input type="radio" value="5" id="5-percent" class="tip-button" name="tipButton" >
             <label class="button-label" for="5-percent">5%</label>
@@ -37,12 +40,18 @@
             <label class="button-label" for="25-percent">25%</label>
             <input type="radio" value="50" id="50-percent" class="tip-button" name="tipButton">
             <label class="button-label" for="50-percent">50%</label>
-            <input type="text" placeholder="Custom">
+            <input type="text" placeholder="Custom" id="custom" pattern="[0-9]*">
           </div>
         </div>
+        </form>
         <div class="people">
-          <p>Number of People</p>
-          <input type="text" id="people-input" placeholder="0">
+          <p for="quantity">Number of people:</p>
+          <input type="number" id="people-input" name="quantity" min="1" max="12" value="1" onKeyDown="return false">
+
+          
+
+
+          
         </div>
 
       </div>
@@ -58,7 +67,7 @@
 
           </div>
         </div>
-        <button>Reset</button>
+        <button name="resetButton">Reset</button>
         <p id="values"></p>
       </div>
     </calc-container>
